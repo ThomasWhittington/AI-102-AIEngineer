@@ -1,0 +1,9 @@
+{
+  "appId": "e8c583d3-9ff2-4961-b551-4c23f842d6b2",
+  "displayName": "ai-app",
+  "name": "api://ai-app",
+  "password": "D56kEANKQY11jj_q1V3b8j1uuqX0deUyJU",
+  "tenant": "d3fb7285-450c-423c-bc78-d0ea7e3b2f13"
+}
+
+service principle id: fa02941c-2aa5-4f5f-be35-3bff672e4cf5
