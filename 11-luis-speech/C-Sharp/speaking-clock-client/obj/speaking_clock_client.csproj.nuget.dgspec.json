@@ -1,29 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\AI-102-AIEngineer\\11-luis-speech\\C-Sharp\\speaking-clock-client\\speaking_clock_client.csproj": {}
+    "C:\\Users\\Tom\\AI-102-AIEngineer\\11-luis-speech\\C-Sharp\\speaking-clock-client\\speaking_clock_client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\AI-102-AIEngineer\\11-luis-speech\\C-Sharp\\speaking-clock-client\\speaking_clock_client.csproj": {
+    "C:\\Users\\Tom\\AI-102-AIEngineer\\11-luis-speech\\C-Sharp\\speaking-clock-client\\speaking_clock_client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\AI-102-AIEngineer\\11-luis-speech\\C-Sharp\\speaking-clock-client\\speaking_clock_client.csproj",
+        "projectUniqueName": "C:\\Users\\Tom\\AI-102-AIEngineer\\11-luis-speech\\C-Sharp\\speaking-clock-client\\speaking_clock_client.csproj",
         "projectName": "speaking_clock_client",
-        "projectPath": "C:\\Users\\Student\\AI-102-AIEngineer\\11-luis-speech\\C-Sharp\\speaking-clock-client\\speaking_clock_client.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\AI-102-AIEngineer\\11-luis-speech\\C-Sharp\\speaking-clock-client\\obj\\",
+        "projectPath": "C:\\Users\\Tom\\AI-102-AIEngineer\\11-luis-speech\\C-Sharp\\speaking-clock-client\\speaking_clock_client.csproj",
+        "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tom\\AI-102-AIEngineer\\11-luis-speech\\C-Sharp\\speaking-clock-client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/ThomasWhittington/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +39,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.CognitiveServices.Speech": {
               "target": "Package",
@@ -63,12 +68,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
