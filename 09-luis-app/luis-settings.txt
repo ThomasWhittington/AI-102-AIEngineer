@@ -4,3 +4,4 @@ azure
     primary: 9ebbd9237777447dbbc7d4805ce0e3ee
     secondary: f1ac754ff0e9418b901724ea78057628
     url: https://twhitt-languageunderstanding.cognitiveservices.azure.com/
+    location: westeurope
