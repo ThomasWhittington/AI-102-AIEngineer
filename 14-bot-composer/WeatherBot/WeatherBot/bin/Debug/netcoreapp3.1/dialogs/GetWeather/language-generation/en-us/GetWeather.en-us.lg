@@ -1,0 +1,17 @@
+[import](common.lg)
+
+# TextInput_Prompt_3oaCvj()
+[Activity    
+    Text = Enter your city.
+    SuggestedActions = Cancel
+]
+# SendActivity_unMAHj()
+[ThumbnailCard
+    title = Weather for ${dialog.city}
+    text = ${dialog.weather} (${dialog.temp}&deg;)
+    image = http://openweathermap.org/img/w/${dialog.icon}.png
+]
+# SendActivity_EyJ9BI()
+[Activity
+    Text = I got an error: ${dialog.api_response.content.message}.
+]

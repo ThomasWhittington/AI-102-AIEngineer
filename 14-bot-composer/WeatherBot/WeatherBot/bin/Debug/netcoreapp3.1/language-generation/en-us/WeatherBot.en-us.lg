@@ -1,0 +1,28 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = Hi! I'm WeatherBot.
+]
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+# TextInput_Prompt_uhSjWf()
+[Activity
+    Text = What's your name?
+]
+
+# SendActivity_ColEmP()
+[Activity
+    Text = Hello ${user.name}, nice to meet you!
+]
+
+# SendActivity_uaCRDU()
+[Activity
+    Text = OK. Whenever you're ready, you can ask me about the weather.
+]
